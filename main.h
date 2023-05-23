@@ -13,6 +13,7 @@
 
 void print_prompt(void);
 ssize_t read_input(char *input);
+void print_environment(void);
 void execute_command(char *command);
 void execute_command(char **args);
 void wait_for_child(pid_t pid, int *status);
